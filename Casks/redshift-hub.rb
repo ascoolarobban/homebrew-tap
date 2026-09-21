@@ -1,6 +1,6 @@
 cask "redshift-hub" do
-  version "1.16.4"
-  sha256 "946e0056557db9b4422e08553543e149c44e915a767a33cda8469fdcf00644e0"
+  version "1.17.0"
+  sha256 "d45ffad42145e78953b870a7e47358025713c871b54b98174a3adb3b8978630d"
 
   url "https://www.redshifthub.com/releases/RedshiftHub-#{version}.dmg"
   name "Redshift Hub"
@@ -13,7 +13,7 @@ cask "redshift-hub" do
   end
 
   auto_updates true
-  depends_on macos: :sequoia
+  depends_on macos: :tahoe
 
   app "Redshift Hub.app"
 
